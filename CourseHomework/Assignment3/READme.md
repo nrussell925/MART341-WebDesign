@@ -9,12 +9,12 @@ So far, the class is going well. It took me a second to figure out some of the s
 
 The classes I am taking:
 
--MART341
--CALC 3
--Computer Architecture
--Art and Science of Interactive Games
--Sports Analytics
--Wildland Fuel Management
+- MART341
+- CALC 3
+- Computer Architecture
+- Art and Science of Interactive Games
+- Sports Analytics
+- Wildland Fuel Management
 
 Link to this assignment on Canvas, [this assignment](https://canvas.umt.edu/courses/15695/assignments/232403?module_item_id=1200438)
 
