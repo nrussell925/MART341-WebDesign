@@ -12,7 +12,10 @@ The DOM is a tree-like representation of a webpage. It allows JavaScript to dyna
 3. `<head>` – Includes metadata, links to stylesheets, and scripts.  
 4. `<body>` – Contains the visible content of the webpage, such as text, images, and interactive elements.  
 
-My live url:
+My live URL:
 
+[https://nrussell925.github.io/MART341-WebDesign/CourseHomework/Assignment4/](https://nrussell925.github.io/MART341-WebDesign/CourseHomework/Assignment4/)
 
 An example of my text editor:
+
+[Example](example.png)
