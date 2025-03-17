@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="gallery.html">Gallery</a> | 
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <p>Have a question or want to work together? Fill out the form below!</p>
+
+        <form action="mailto:nik.russell@umconnect.umt.edu?subject=Contact%20Request" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <h2>Availability</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>9 AM - 5 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Not Available</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Not Available</td>
+            </tr>
+        </table>
+
+        <p><a href="index.html">Back to Home</a></p>
+    </div>
+</body>
+</html>
