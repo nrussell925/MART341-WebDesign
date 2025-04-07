@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Budget Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Budget Tracker</h1>
+    </header>
+
+    <main>
+        <section class="overview">
+            <h2>Budget Overview</h2>
+            <form>
+                <label for="income">Total Income:</label>
+                <input type="number" id="income" placeholder="Enter income" required><br>
+                
+                <label for="expenses">Total Expenses:</label>
+                <input type="number" id="expenses" placeholder="Enter expenses" required><br>
+
+                <button type="submit">Update Budget</button>
+            </form>
+        </section>
+
+        <section class="progress">
+            <h2>Spending Progress</h2>
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+        </section>
+
+        <section class="summary">
+            <h2>Summary</h2>
+            <p><strong>Total Income:</strong> $<span id="income-display">0.00</span></p>
+            <p><strong>Total Expenses:</strong> $<span id="expenses-display">0.00</span></p>
+            <p><strong>Remaining Budget:</strong> $<span id="remaining-display">0.00</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Budget Tracker. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

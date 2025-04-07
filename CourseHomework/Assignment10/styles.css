@@ -1,0 +1,109 @@
+/* Basic Reset and Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Soft, light background color */
+    color: #333333; /* Dark text for contrast */
+}
+
+/* Header Styling */
+header {
+    background-color: #008080; /* Calming teal */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Form Styling */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth */
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input {
+    padding: 12px;
+    border: 2px solid #ddd; /* Soft border */
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
+form button {
+    background-color: #76c7c0; /* Bright lime green for call-to-action */
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #4dbfa6; /* Darker green on hover */
+}
+
+/* Progress Bar Section */
+.progress {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.progress-bar-container {
+    background-color: #e0e0e0;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 50%; /* Just an example, adjust width dynamically with JS */
+    background-color: #76c7c0; /* Bright green for the bar */
+    border-radius: 15px;
+}
+
+/* Summary Section */
+.summary {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.summary h2 {
+    font-size: 1.8em;
+    color: #008080; /* Teal for headings */
+}
+
+.summary p {
+    font-size: 1.2em;
+    color: #333333;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333333; /* Dark background for footer */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+}
